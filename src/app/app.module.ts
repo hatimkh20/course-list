@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
-import { reducers } from './store/reducers';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { reducers } from './reducers';
 
 @NgModule({
   declarations: [

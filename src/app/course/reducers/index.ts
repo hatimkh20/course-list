@@ -8,6 +8,6 @@ export interface AppState {
     courseList: CourseState;
 };
 
-export const reducers: ActionReducerMap<AppState, any> = {
+export const courseReducers: ActionReducerMap<AppState, any> = {
     courseList: courseReducer
 };
